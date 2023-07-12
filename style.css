@@ -59,6 +59,34 @@ button {
 main {
   margin: 130px 240px;
 }
+footer {
+  text-align: center;
+  background-color: #111010;
+  padding: 100px 150px;
+}
+footer h1 {
+  color: #E55473;
+}
+footer span {
+  color: #F4F4F4;
+}
+footer div {
+  padding: 50px;
+}
+footer p {
+  margin-bottom: 0px;
+  color: #F4F4F4;
+}
+footer p.copy-right {
+  color: #707070;
+}
+.logo {
+  width: 80px;
+  position: fixed;
+  z-index: 9999;
+  left: 50px;
+  top: 15px;
+}
 .header-content {
   padding-top: 130px;
 }
@@ -93,10 +121,6 @@ main {
   margin: 0px auto;
   text-align: center;
 }
-/* .text-div h1 {
-  color: #000000;
-  font-size: 2rem;
-} */
 .text-div p {
   margin: 10px;
 }
@@ -197,26 +221,4 @@ main {
   margin-right: 10px;
   border: none;
   font-size: 1rem;
-}
-
-footer {
-  text-align: center;
-  background-color: #111010;
-  padding: 100px 150px;
-}
-footer h1 {
-  color: #E55473;
-}
-footer span {
-  color: #F4F4F4;
-}
-footer div {
-  padding: 50px;
-}
-footer p {
-  margin-bottom: 0px;
-  color: #F4F4F4;
-}
-footer p.copy-right {
-  color: #707070;
 }
