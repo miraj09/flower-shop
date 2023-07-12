@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 850px;
+  background-color: #FCEEF1;
+}
+nav {
+  background-color: #F4F4F4;
+  width: 100%;
+}
+ul {
+  margin: 0px auto;
+  padding: 30px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+}
+section,
+footer {
+  width: 100%;
+  margin-top: 130px;
+}
+h1 {
+  color: #272727;
+  font-size: 3rem;
+}
+button {
+  background-color: #E55473;
+  color: #FCEEF1;
+  padding: 20px 40px;
+  border: 1px solid #E55473;
+  border-radius: 5px;
+}
+
+main {
+  margin: 130px 240px;
+}
+
+.header-content,
+.sign-up-content {
+  margin: 0px 240px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text,
+.sign-up-text {
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+}
+
+.header-text span {
+  color: #000000;
+  font-size: 3.5rem;
+}
+.header-text p
+.sign-up-text p {
+  margin-top: 20px;
+  padding:1rem 6rem 2rem 0rem;
+  color: #272727;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.text-div {
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+.text-div h1 {
+  color: #000000;
+  font-size: 2rem;
+}
+.text-div p {
+  font-size: 1.2rem;
+  color: #272727;
+  margin: 10px;
+}
+.feature-image-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.image-container {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin: 10px;
+  width: 464px;
+  height: 540px;
+  position: relative;
+}
+.image-container:nth-child(1) {
+  background-color: #F2DEE7;
+}
+.image-container:nth-child(2) {
+  background-color: #D9EFF1;
+}
+.image-container:nth-child(3) {
+  background-color: #E3EBDB;
+}
+.image-container img {
+  width: 310px;
+  height: 428px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.feature-image-div div p {
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000000;
+  width: fit-content;
+}
+.service {
+  background-color: #F4F4F4;
+  padding: 90px 175px;
+  display: flex;
+  justify-content: space-around;
+}
+.service div {
+  text-align: center;
+}
+.service p {
+  margin-top: 10px;
+  color: #505050;
+  font-weight: bold;
+}
+
+.sign-up {
+  background-color: #FEF6F8;
+}
+.sign-up-text {
+  text-align: center;
+}
+.sign-up-text h1 span {
+  color: #E55473;
+}
+.sign-up-text button {
+  margin-top: 20px;
+}
+.social-media h1 {
+  text-align: center;
+}
+.subscribe {
+  background-image: url("assets/images/Rectangle9.png");
+  background-size: cover;
+  padding: 120px 290px;
+}
+.subscribe input {
+  padding: 20px;
+  width: 70%;
+  float: left;
+  margin-right: 10px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #272727;
+}
+footer div {
+  padding: 50px;
+}
